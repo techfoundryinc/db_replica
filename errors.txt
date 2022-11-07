@@ -1,0 +1,1 @@
+INSERT INTO quad (quad_id, quad_name, city_id, country_id, quad_year_from, quad_year_to, active, comment) VALUES (1,N'Beijing',N'19332',N'CHN',2005,2008,0,N'Beijing Summer');

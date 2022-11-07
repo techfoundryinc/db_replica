@@ -1,8 +1,10 @@
 import datetime
 import pyodbc
 import re
+import os
+from dotenv import load_dotenv
 
-
+load_dotenv()
 
 type_str = type('str')
 type_datetime = type(datetime.datetime.now())
@@ -11,29 +13,36 @@ type_float = type(1.0)
 type_None = type(None)
 type_bool = type(True)
 
-server = 'otp10cdb01.database.windows.net'
-database = 'OTPCDB'
-username = 'otpcdview'
-password = 'Golly-go0s&!-honk-W0lf'   
-driver= '{ODBC Driver 17 for SQL Server}'
+# Source Database Credentials on Microsoft Azure Database
+server = os.getenv("server")
+database = os.getenv("database")
+username = os.getenv("username")
+password = os.getenv("password")   
+driver= os.getenv("driver")
 connection_string = 'DRIVER='+driver+';SERVER=tcp:'+server+';PORT=1433;DATABASE='+database+';UID='+username+';PWD='+ password
 
-server2 = 'webappsserver.database.windows.net'
-database2 = 'webappdb'
-username2 = 'webadmin'
-password2 = 'otpapps@786'   
-driver= '{ODBC Driver 17 for SQL Server}'
+# Destination Database Credentials on Microsoft Azure Database
+server2 = os.getenv("server2")
+database2 = os.getenv("database2")
+username2 = os.getenv("username2")
+password2 = os.getenv("password2")
+driver= os.getenv("driver")
 connection_string2 = 'DRIVER='+driver+';SERVER=tcp:'+server2+';PORT=1433;DATABASE='+database2+';UID='+username2+';PWD='+ password2
 
-
+# This function writes the text in the given file. 
+# This function is being called to store erros and results of each Table insert.
 def write_in_file(line, filename):
     with open(filename, 'a') as f:
             f.write(line)
             f.write('\n')
     
+# Some regex to format python string into SQL Server friendly format. 
+# Source: Copied from internet, I believe stack overflow. Credits to StackOverflow.
+ 
 def sqlFormat(qry):
     return re.sub("((?<![(,])'(?![,)]))", "''", qry)
- 
+
+# Basic function to type check SQL types
 def convert2str(record):
     res = []
     for item in record:
@@ -47,10 +56,9 @@ def convert2str(record):
             res.append( str(1) if item else str(0))
         else:  # for numeric values
             res.append(str(item))
-
     return  ','.join(res) 
  
- 
+# this is a core function that copies a table data and insert that data into destination table.
 def copy_table(tab_name, src_cursor):
     sql = 'select * from %s'%tab_name
     src_cursor.execute(sql)
@@ -79,7 +87,7 @@ def migrate_table(table):
         with conn.cursor() as cursor:
             copy_table(table, cursor)
 
-
+# Checks if the source and destination tables have the same number of records.
 def check_table(table, start, total):
     sql = "SELECT COUNT(*) from %s;"%table
     with pyodbc.connect(connection_string) as source:

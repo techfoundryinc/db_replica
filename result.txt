@@ -1,0 +1,131 @@
+Table (1/131): evaluation_note Source Records: 0
+Table (2/131): qualification Source Records: 26 Destination Records: 26  isEqual: True
+Table (3/131): evaluation_note_type Source Records: 0
+Table (4/131): race Source Records: 14 Destination Records: 14  isEqual: True
+Table (5/131): evaluation_question_type Source Records: 85 Destination Records: 85  isEqual: True
+Table (6/131): person_staging Source Records: 0
+Table (7/131): person_address Source Records: 0
+Table (8/131): role Source Records: 15 Destination Records: 15  isEqual: True
+Table (9/131): evaluation_rating_set Source Records: 1 Destination Records: 1  isEqual: True
+Table (10/131): scientific_domain Source Records: 3 Destination Records: 3  isEqual: True
+Table (11/131): evaluation_master_question Source Records: 0
+Table (12/131): quad_year Source Records: 0
+Table (13/131): person_disability Source Records: 0
+Table (14/131): scientific_discipline Source Records: 22 Destination Records: 22  isEqual: True
+Table (15/131): evaluation_rating Source Records: 7 Destination Records: 7  isEqual: True
+Table (16/131): person_identity Source Records: 0
+Table (17/131): funding_category_program Source Records: 178 Destination Records: 178  isEqual: True
+Table (18/131): evaluation_status Source Records: 0
+Table (19/131): sport_training_strategy Source Records: 0
+Table (20/131): person_qualification Source Records: 63 Destination Records: 63  isEqual: True
+Table (21/131): event_grouping Source Records: 0
+Table (22/131): scientific_primary_role Source Records: 19 Destination Records: 19  isEqual: True
+Table (23/131): event_location_type Source Records: 3 Destination Records: 3  isEqual: True
+Table (24/131): person_specialty Source Records: 1742 Destination Records: 1742  isEqual: True
+Table (25/131): season Source Records: 2 Destination Records: 2  isEqual: True
+Table (26/131): funding_block_type Source Records: 14 Destination Records: 14  isEqual: True
+Table (27/131): target_sport Source Records: 0
+Table (28/131): quad_season_olympic_para Source Records: 0
+Table (29/131): funding_category_area Source Records: 4 Destination Records: 4  isEqual: True
+Table (30/131): team_person Source Records: 0
+Table (31/131): funding_category_group Source Records: 10 Destination Records: 10  isEqual: True
+Table (32/131): funding_category_type Source Records: 80 Destination Records: 80  isEqual: True
+Table (33/131): sexual_orientation Source Records: 8 Destination Records: 8  isEqual: True
+Table (34/131): training_strategy_type Source Records: 4 Destination Records: 4  isEqual: True
+Table (35/131): specialty Source Records: 20 Destination Records: 20  isEqual: True
+Table (36/131): year Source Records: 15 Destination Records: 15  isEqual: True
+Table (37/131): funding_condition Source Records: 0
+Table (38/131): year_fin Source Records: 24 Destination Records: 24  isEqual: True
+Table (39/131): specialty_qualification Source Records: 0
+Table (40/131): funding_program Source Records: 42 Destination Records: 42  isEqual: True
+Table (41/131): benchmark_summary Source Records: 294 Destination Records: 294  isEqual: True
+Table (42/131): funding_source_type Source Records: 3 Destination Records: 3  isEqual: True
+Table (43/131): sport_clustering Source Records: 4 Destination Records: 4  isEqual: True
+Table (44/131): funding_source Source Records: 17 Destination Records: 17  isEqual: True
+Table (45/131): benchmark_detail Source Records: 0
+Table (46/131): sport_discipline_name Source Records: 112 Destination Records: 112  isEqual: True
+Table (47/131): sport_event_name Source Records: 353 Destination Records: 353  isEqual: True
+Table (48/131): funding_stage_type Source Records: 8 Destination Records: 8  isEqual: True
+Table (49/131): sport_gender_type Source Records: 0
+Table (50/131): games_lookahead_type Source Records: 3 Destination Records: 3  isEqual: True
+Table (51/131): sport_grouping Source Records: 7 Destination Records: 7  isEqual: True
+Table (52/131): benchmark_person Source Records: 0
+Table (53/131): gender Source Records: 3 Destination Records: 3  isEqual: True
+Table (54/131): sport_level Source Records: 9 Destination Records: 9  isEqual: True
+Table (55/131): gender_identity Source Records: 4 Destination Records: 4  isEqual: True
+Table (56/131): sport_name Source Records: 62 Destination Records: 62  isEqual: True
+Table (57/131): identity_type Source Records: 6 Destination Records: 6  isEqual: True
+Table (58/131): funding_summary Source Records: 0
+Table (59/131): sport_scoring_grouping Source Records: 5 Destination Records: 5  isEqual: True
+Table (60/131): ist_service_duration_type Source Records: 2 Destination Records: 2  isEqual: True
+Table (61/131): sport_sub_discipline_name Source Records: 138 Destination Records: 138  isEqual: True
+Table (62/131): language Source Records: 3 Destination Records: 3  isEqual: True
+Table (63/131): sport Source Records: 2055 Destination Records: 2055  isEqual: True
+Table (64/131): leadership_role_type Source Records: 3 Destination Records: 3  isEqual: True
+Table (65/131): funding_block Source Records: 0
+Table (66/131): olympic_para Source Records: 2 Destination Records: 2  isEqual: True
+Table (67/131): organization_type Source Records: 5 Destination Records: 5  isEqual: True
+Table (68/131): funding_category Source Records: 0
+Table (69/131): evaluation_block_type Source Records: 6 Destination Records: 6  isEqual: True
+Table (70/131): funding_detail Source Records: 0
+Table (71/131): evaluation_category_type Source Records: 38 Destination Records: 38  isEqual: True
+Table (72/131): competition_sport Source Records: 0
+Table (73/131): evaluation_category_question Source Records: 0
+Table (74/131): funding_detail_source Source Records: 0
+Table (75/131): evaluation_summary Source Records: 0
+Table (76/131): evaluation_set Source Records: 0
+Table (77/131): evaluation_set_block Source Records: 0
+Table (78/131): funding_stage_version Source Records: 0
+Table (79/131): evaluation_block Source Records: 0
+Table (80/131): evaluation_set_block_type Source Records: 0
+Table (81/131): funding_detail_version Source Records: 0
+Table (82/131): event Source Records: 0
+Table (83/131): evaluation_set_category Source Records: 0
+Table (84/131): organization_sport Source Records: 137 Destination Records: 137  isEqual: True
+Table (85/131): evaluation_set_category_type Source Records: 0
+Table (86/131): funding_detail_source_version Source Records: 0
+Table (87/131): sport_competition_tier Source Records: 0
+Table (88/131): evaluation_set_question Source Records: 0
+Table (89/131): funding_summary_condition Source Records: 0
+Table (90/131): target_type Source Records: 2 Destination Records: 2  isEqual: True
+Table (91/131): funding_block_organization_type Source Records: 14 Destination Records: 14  isEqual: True
+Table (92/131): team_type Source Records: 3 Destination Records: 3  isEqual: True
+Table (93/131): games_lookahead_schedule Source Records: 39 Destination Records: 39  isEqual: True
+Table (94/131): team Source Records: 0
+Table (95/131): organization Source Records: 122 Destination Records: 122  isEqual: True
+Table (96/131): athlete_level Source Records: 10 Destination Records: 10  isEqual: True
+Table (97/131): otp_athlete_pool Source Records: 2 Destination Records: 2  isEqual: True
+Table (98/131): benchmark_person_type Source Records: 0
+Table (99/131): medal_potential Source Records: 0
+Table (100/131): title Source Records: 7 Destination Records: 7  isEqual: True
+Table (101/131): otp_funding_category Source Records: 6 Destination Records: 6  isEqual: True
+Table (102/131): benchmark_priority Source Records: 2 Destination Records: 2  isEqual: True
+Table (103/131): person Source Records: 3137 Destination Records: 3137  isEqual: True
+Table (104/131): para_event_classification Source Records: 166 Destination Records: 166  isEqual: True
+Table (105/131): benchmark_type Source Records: 11 Destination Records: 11  isEqual: True
+Table (106/131): person_suffix Source Records: 0
+Table (107/131): benchmark_target Source Records: 8 Destination Records: 8  isEqual: True
+Table (108/131): otp_funding_category_sport Source Records: 0
+Table (109/131): person_type Source Records: 4 Destination Records: 4  isEqual: True
+Table (110/131): competition_tier Source Records: 4 Destination Records: 4  isEqual: True
+Table (111/131): province_state Source Records: 3432 Destination Records: 3432  isEqual: True
+Table (112/131): competition_type Source Records: 13 Destination Records: 13  isEqual: True
+Table (113/131): person_athlete_pool Source Records: 0
+Table (114/131): city Source Records: 148040 Destination Records: 148040  isEqual: True
+Table (115/131): country Source Records: 234 Destination Records: 234  isEqual: True
+Table (116/131): competition_city Source Records: 284 Destination Records: 284  isEqual: True
+Table (117/131): evaluation_category Source Records: 0
+Table (118/131): person_event_athlete_level Source Records: 0
+Table (119/131): address Source Records: 0
+Table (120/131): competition Source Records: 0
+Table (121/131): organization_address Source Records: 0
+Table (122/131): evaluation_question Source Records: 0
+Table (123/131): person_organization_role Source Records: 10454 Destination Records: 10454  isEqual: True
+Table (124/131): disability_type Source Records: 7 Destination Records: 7  isEqual: True
+Table (125/131): quad Source Records: 11 Destination Records: 10  isEqual: False
+Table (126/131): evaluation_answer_score_range Source Records: 0
+Table (127/131): evaluation_response Source Records: 0
+Table (128/131): evaluation_block_type_designation Source Records: 1 Destination Records: 1  isEqual: True
+Table (129/131): qualification_type Source Records: 2 Destination Records: 2  isEqual: True
+Table (130/131): person_sport Source Records: 12828 Destination Records: 12828  isEqual: True
+Table (131/131): evaluation_category_type_designation Source Records: 1 Destination Records: 1  isEqual: True
